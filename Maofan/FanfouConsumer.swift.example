@@ -1,0 +1,26 @@
+//
+//  FanfouConsumer.swift
+//  Maofan
+//
+//  Created by Catt Liu on 16/9/26.
+//  Copyright © 2016年 Catt Liu. All rights reserved.
+//
+
+import Foundation
+
+class FanfouConsumer: AnyObject {
+    
+    // 在这里申请饭否 API 权限：http://fanfou.com/apps
+    // 填好后，将本文件名改成 FanfouConsumer.swift
+    
+    // Consumer key
+    static let key = ""
+    // Consumer secret
+    static let secret = ""
+    
+    // 饭否账号用户名，仅测试用
+    static let username = ""
+    // 饭否账号密码，仅测试用
+    static let password = ""
+    
+}

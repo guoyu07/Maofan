@@ -20,7 +20,14 @@ class ViewController: OAuthViewController {
     
     var currentParameters = [String: String]()
     let formData = Semaphore<FormViewControllerData>()
+    @IBOutlet weak var imageTest: UIImageView!
+    @IBOutlet weak var imageTest: UIImageView!
 
+    @IBAction func postTextTest(_ sender: AnyObject) {
+        @IBOutlet weak var ef: UIButton!
+        @IBAction func HelloButtonDidTouch(_ sender: AnyObject) {
+        }
+    }
     lazy var internalWebViewController: WebViewController = {
         let controller = WebViewController()
         #if os(OSX)
