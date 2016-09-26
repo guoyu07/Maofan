@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+## API Key Secret
+Maofan/FanfouConsumer.swift
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
