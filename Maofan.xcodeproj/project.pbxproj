@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C708B8EE1D990C81006B1C8A /* MFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C708B8ED1D990C81006B1C8A /* MFService.swift */; };
 		C7700A4C1D81BBEE00908DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7700A4B1D81BBEE00908DB2 /* AppDelegate.swift */; };
 		C7700A4E1D81BBEE00908DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7700A4D1D81BBEE00908DB2 /* ViewController.swift */; };
 		C7700A511D81BBEE00908DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7700A4F1D81BBEE00908DB2 /* Main.storyboard */; };
@@ -15,7 +16,68 @@
 		C7700A591D81BBEE00908DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7700A571D81BBEE00908DB2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C708B8DF1D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F435027A1A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		C708B8E11D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F451E3C5195B8CD80051434C;
+			remoteInfo = OAuthSwiftDemo;
+		};
+		C708B8E31D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
+			remoteInfo = OAuthSwiftOSX;
+		};
+		C708B8E51D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
+			remoteInfo = OAuthSwiftOSXDemo;
+		};
+		C708B8E71D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
+			remoteInfo = OAuthSwiftTVOS;
+		};
+		C708B8E91D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C40890C01C11B37000E3146A;
+			remoteInfo = OAuthSwiftWatchOS;
+		};
+		C708B8EB1D990C57006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
+			remoteInfo = OAuthSwiftTests;
+		};
+		C708B8EF1D990CA0006B1C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
+		C708B8ED1D990C81006B1C8A /* MFService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFService.swift; sourceTree = "<group>"; };
 		C7700A481D81BBEE00908DB2 /* Maofan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maofan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7700A4B1D81BBEE00908DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7700A4D1D81BBEE00908DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,11 +99,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C708B8D61D990C56006B1C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C708B8E01D990C57006B1C8A /* OAuthSwift.framework */,
+				C708B8E21D990C57006B1C8A /* OAuthSwiftDemo.app */,
+				C708B8E41D990C57006B1C8A /* OAuthSwift.framework */,
+				C708B8E61D990C57006B1C8A /* OAuthSwiftOSXDemo.app */,
+				C708B8E81D990C57006B1C8A /* OAuthSwift.framework */,
+				C708B8EA1D990C57006B1C8A /* OAuthSwift.framework */,
+				C708B8EC1D990C57006B1C8A /* OAuthSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C7700A3F1D81BBEE00908DB2 = {
 			isa = PBXGroup;
 			children = (
 				C7700A4A1D81BBEE00908DB2 /* Maofan */,
 				C7700A491D81BBEE00908DB2 /* Products */,
+				C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				C7700A4B1D81BBEE00908DB2 /* AppDelegate.swift */,
+				C708B8ED1D990C81006B1C8A /* MFService.swift */,
 				C7700A4D1D81BBEE00908DB2 /* ViewController.swift */,
 				C7700A4F1D81BBEE00908DB2 /* Main.storyboard */,
 				C7700A551D81BBEE00908DB2 /* Assets.xcassets */,
@@ -81,6 +159,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C708B8F01D990CA0006B1C8A /* PBXTargetDependency */,
 			);
 			name = Maofan;
 			productName = Maofan;
@@ -99,6 +178,7 @@
 				TargetAttributes = {
 					C7700A471D81BBEE00908DB2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LK4XTSG397;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -115,12 +195,70 @@
 			mainGroup = C7700A3F1D81BBEE00908DB2;
 			productRefGroup = C7700A491D81BBEE00908DB2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C708B8D61D990C56006B1C8A /* Products */;
+					ProjectRef = C708B8D51D990C56006B1C8A /* OAuthSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C7700A471D81BBEE00908DB2 /* Maofan */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C708B8E01D990C57006B1C8A /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = C708B8DF1D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8E21D990C57006B1C8A /* OAuthSwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftDemo.app;
+			remoteRef = C708B8E11D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8E41D990C57006B1C8A /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = C708B8E31D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8E61D990C57006B1C8A /* OAuthSwiftOSXDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftOSXDemo.app;
+			remoteRef = C708B8E51D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8E81D990C57006B1C8A /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = C708B8E71D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8EA1D990C57006B1C8A /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = C708B8E91D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C708B8EC1D990C57006B1C8A /* OAuthSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuthSwiftTests.xctest;
+			remoteRef = C708B8EB1D990C57006B1C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C7700A461D81BBEE00908DB2 /* Resources */ = {
@@ -142,11 +280,20 @@
 			files = (
 				C7700A4E1D81BBEE00908DB2 /* ViewController.swift in Sources */,
 				C7700A541D81BBEE00908DB2 /* Maofan.xcdatamodeld in Sources */,
+				C708B8EE1D990C81006B1C8A /* MFService.swift in Sources */,
 				C7700A4C1D81BBEE00908DB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C708B8F01D990CA0006B1C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = C708B8EF1D990CA0006B1C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C7700A4F1D81BBEE00908DB2 /* Main.storyboard */ = {
@@ -263,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK4XTSG397;
 				INFOPLIST_FILE = Maofan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maochang.maofan;
@@ -275,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK4XTSG397;
 				INFOPLIST_FILE = Maofan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maochang.maofan;
